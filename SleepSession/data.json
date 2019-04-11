@@ -1,0 +1,98 @@
+{
+    "awake": [
+        {
+            "length": 47,
+            "level": 4
+        },
+        {
+            "length": 20,
+            "level": 4
+        },
+        {
+            "length": 50,
+            "level": 4
+        },
+        {
+            "length": 20,
+            "level": 4
+        }
+    ],
+    "rem": [
+        {
+            "length": 30,
+            "level": 3
+        },
+        {
+            "length": 20,
+            "level": 3
+        },
+        {
+            "length": 10,
+            "level": 3
+        },
+        {
+            "length": 10,
+            "level": 3
+        },
+        {
+            "length": 30,
+            "level": 3
+        },
+        {
+            "length": 10,
+            "level": 3
+        },
+        {
+            "length": 20,
+            "level": 3
+        }
+    ],
+    "light": [
+        {
+            "length": 10,
+            "level": 2
+        },
+        {
+            "length": 20,
+            "level": 2
+        },
+        {
+            "length": 10,
+            "level": 2
+        },
+        {
+            "length": 40,
+            "level": 2
+        },
+        {
+            "length": 60,
+            "level": 2
+        },
+        {
+            "length": 10,
+            "level": 2
+        },
+        {
+            "length": 60,
+            "level": 2
+        },
+        {
+            "length": 10,
+            "level": 2
+        },
+        {
+            "length": 10,
+            "level": 2
+        },
+        {
+            "length": 80,
+            "level": 2
+        }
+    ],
+    "deep":[
+        {
+            "length": 480,
+            "level": 1
+        }
+    ]
+}

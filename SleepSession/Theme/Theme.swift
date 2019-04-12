@@ -50,4 +50,16 @@ final class Theme {
     static var bodyFont: UIFont {
         return UIFont(name: "Helvetica", size: 14)!
     }
+    
+    static var barStyle: UIBarStyle {
+        return .default
+    }
+    
+    class func apply() {
+        
+        // MARK: UINavigationBar
+        UINavigationBar.appearance().barStyle = barStyle
+        UINavigationBar.appearance().tintColor = appPurple
+        UINavigationBar.appearance().barTintColor = white
+    }
 }

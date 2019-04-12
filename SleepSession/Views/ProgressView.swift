@@ -1,7 +1,7 @@
 
 import UIKit
 
-class ProgressView: UIView {
+final class ProgressView: UIView {
     
     var sleepPercent:CGFloat = 0 {
         didSet {

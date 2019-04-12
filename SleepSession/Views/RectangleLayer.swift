@@ -1,7 +1,7 @@
 
 import UIKit
 
-class RectangleLayer: CAShapeLayer {
+final class RectangleLayer: CAShapeLayer {
 
     var rect:CGRect! {
         didSet {

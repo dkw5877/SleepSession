@@ -1,12 +1,7 @@
 
 import UIKit
 
-struct GraphPoint: Codable {
-    let width:CGFloat
-    let height:CGFloat
-}
-
-class SleepGraphView: UIView {
+final class SleepGraphView: UIView {
     
     var awake = [DataPoint]() {
         didSet {

@@ -1,7 +1,7 @@
 
 import UIKit
 
-class SleepViewController: UIViewController {
+final class SleepViewController: UIViewController {
 
     private let sleepView = SleepView(frame: UIScreen.main.bounds)
    

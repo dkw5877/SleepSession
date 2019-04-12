@@ -1,7 +1,7 @@
 
 import UIKit
 
-class SleepView: UIView {
+final class SleepView: UIView {
     
     var nightSleep:NightSleep? {
         didSet {

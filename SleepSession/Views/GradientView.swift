@@ -1,7 +1,7 @@
 
 import UIKit
 
-class GradientView: UIView {
+final class GradientView: UIView {
 
     var startColor:UIColor = Theme.darkPurple
     var endColor:UIColor = Theme.appPurple

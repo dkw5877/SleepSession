@@ -1,7 +1,7 @@
 
 import UIKit.UIColor
 
-class Theme {
+final class Theme {
     
     static var darkPurple:UIColor {
         return UIColor(red: 44/255, green: 26/255, blue: 74/255, alpha: 1.0)

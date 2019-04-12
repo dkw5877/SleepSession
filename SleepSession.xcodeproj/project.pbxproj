@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		CECBF8522257BE9200EE4301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECBF8512257BE9200EE4301 /* Assets.xcassets */; };
+		CEDE235222601F4A00627A11 /* SleepData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE235122601F4A00627A11 /* SleepData.swift */; };
+		CEDE235422601F6500627A11 /* DataPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE235322601F6500627A11 /* DataPoint.swift */; };
+		CEDE235622601F9600627A11 /* GraphPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE235522601F9600627A11 /* GraphPoint.swift */; };
 		CEE195FE225F935600D22A22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE195FD225F935600D22A22 /* AppDelegate.swift */; };
 		CEE19601225F93B200D22A22 /* ScrollingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE195FF225F93B200D22A22 /* ScrollingViewController.swift */; };
 		CEE19602225F93B200D22A22 /* SleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE19600225F93B200D22A22 /* SleepViewController.swift */; };
@@ -33,6 +36,9 @@
 		CECBF8472257BE9100EE4301 /* SleepSession.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepSession.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECBF8512257BE9200EE4301 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CECBF8562257BE9200EE4301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDE235122601F4A00627A11 /* SleepData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepData.swift; sourceTree = "<group>"; };
+		CEDE235322601F6500627A11 /* DataPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPoint.swift; sourceTree = "<group>"; };
+		CEDE235522601F9600627A11 /* GraphPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphPoint.swift; sourceTree = "<group>"; };
 		CEE195FD225F935600D22A22 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = SleepSession/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
 		CEE195FF225F93B200D22A22 /* ScrollingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScrollingViewController.swift; path = "SleepSession/View Controllers/ScrollingViewController.swift"; sourceTree = SOURCE_ROOT; };
 		CEE19600225F93B200D22A22 /* SleepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SleepViewController.swift; path = "SleepSession/View Controllers/SleepViewController.swift"; sourceTree = SOURCE_ROOT; };
@@ -77,6 +83,9 @@
 			isa = PBXGroup;
 			children = (
 				CEE19613225F941D00D22A22 /* NightSleep.swift */,
+				CEDE235122601F4A00627A11 /* SleepData.swift */,
+				CEDE235322601F6500627A11 /* DataPoint.swift */,
+				CEDE235522601F9600627A11 /* GraphPoint.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -223,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDE235422601F6500627A11 /* DataPoint.swift in Sources */,
 				CEE1961F225F943900D22A22 /* SleepView.swift in Sources */,
 				CEE19601225F93B200D22A22 /* ScrollingViewController.swift in Sources */,
 				CEE19623225F943900D22A22 /* ProgressView.swift in Sources */,
@@ -230,8 +240,10 @@
 				CEE19608225F93C000D22A22 /* UIColorExtension.swift in Sources */,
 				CEE19624225F943900D22A22 /* SleepGraphView.swift in Sources */,
 				CEE19622225F943900D22A22 /* StatusView.swift in Sources */,
+				CEDE235622601F9600627A11 /* GraphPoint.swift in Sources */,
 				CEE1961E225F943900D22A22 /* CircleLayer.swift in Sources */,
 				CEE19620225F943900D22A22 /* RectangleLayer.swift in Sources */,
+				CEDE235222601F4A00627A11 /* SleepData.swift in Sources */,
 				CEE19602225F93B200D22A22 /* SleepViewController.swift in Sources */,
 				CEE19606225F93C000D22A22 /* FontExtenstions.swift in Sources */,
 				CEE195FE225F935600D22A22 /* AppDelegate.swift in Sources */,

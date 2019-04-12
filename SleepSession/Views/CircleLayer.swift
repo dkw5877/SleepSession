@@ -1,7 +1,7 @@
 
 import UIKit
 
-class CircleLayer: CAShapeLayer {
+final class CircleLayer: CAShapeLayer {
     
     var rect:CGRect! {
         didSet {

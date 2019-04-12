@@ -1,7 +1,7 @@
 
 import UIKit
 
-class StatusView: UIView {
+final class StatusView: UIView {
 
     let leftIcon = UIImageView()
     let rightIcon = UIImageView()

@@ -1,19 +1,7 @@
 
 import UIKit
 
-struct SleepData: Codable {
-    let awake: [DataPoint]
-    let rem: [DataPoint]
-    let light: [DataPoint]
-    let deep: [DataPoint]
-}
-
-struct DataPoint: Codable {
-    let length:CGFloat
-    let level:Int
-}
-
-class SleepSessionView: UIView {
+final class SleepSessionView: UIView {
     
     var nightSleep:NightSleep? {
         didSet {

@@ -16,7 +16,7 @@ final class Theme {
     }
     
     static var activePurple:UIColor {
-        return UIColor(red: 101/255, green: 43/255, blue: 167/255, alpha: 1.0)
+        return UIColor(red: 131/255, green: 92/255, blue: 231/255, alpha: 1.0)
     }
     
     static var lightPurple:UIColor {
@@ -61,5 +61,6 @@ final class Theme {
         UINavigationBar.appearance().barStyle = barStyle
         UINavigationBar.appearance().tintColor = appPurple
         UINavigationBar.appearance().barTintColor = white
+        UIToolbar.appearance(whenContainedInInstancesOf: [UINavigationController.self]).barTintColor = .white
     }
 }

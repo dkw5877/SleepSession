@@ -50,7 +50,7 @@ final class SleepView: UIView {
         super.layoutSubviews()
         
         gradient.frame = bounds
-        var height = Int(frame.height * 0.40)
+        var height = Int(frame.height * 0.35)
         let center = CGPoint(x: frame.midX, y: frame.midY)
         let width = bounds.width - (layoutMargins.left + layoutMargins.right)
         progressView.frame = CGRect(x: center.x - CGFloat(height)/2, y: layoutMargins.top, width: CGFloat(height) , height: CGFloat(height))
